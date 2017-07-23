@@ -157,6 +157,17 @@ git remote rm origin
 
 添加则使用remote add指令即可。
 
+####3、Git pull强制覆盖本地项目
+有时我们在拉代码时希望不管本地的版本如何，我们只要现在远程仓库的，那边需要pull指令来进行操作。
+
+```python
+git fetch --all  
+git reset --hard origin/master 
+git pull 
+```
+
+
+
 参考链接：
 
 [在Github上创建新分支](http://blog.csdn.net/guang11cheng/article/details/37757201)
@@ -183,3 +194,4 @@ git remote rm origin
 
 [git push指令](http://www.yiibai.com/git/git_push.html)
 
+[强制覆盖](http://blog.csdn.net/xyzchenxiaolin/article/details/51955221)
