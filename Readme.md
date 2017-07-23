@@ -30,7 +30,8 @@ git remote add origin git@github.com:Lmerengues/Qmazon.git
 如果你是第一次使用ssh模式来传输，如果不幸出现错误，可以尝试键入
 ```python
 git remote set-url git@github.com:oDevilo/Java-Base
-```指令，这里修改了.git目录下的config文件，使其默认连接方式从http改为ssh。
+```
+这里修改了.git目录下的config文件，使其默认连接方式从http改为ssh。
 
 4、键入
 ```python
