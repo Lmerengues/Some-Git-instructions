@@ -93,7 +93,7 @@ push命令用于将本地分支的更新，推送到远程主机。到这里你�
 ------------- 
 GitHub仓库默认有一个master的分支，当我们在master分支开发过程中接到一个新的功能需求，我们就可以新建一个分支同步开发而互不影响，开发完成后，在合并merge到主分支master上。
 
-####关于分支的一些基本操作指令：
+#### 关于分支的一些基本操作指令：
 
 本地创建一个分支Branch1：
 ```python
@@ -128,7 +128,7 @@ git merge Branch1
 
 其他常用指令
 -------------
-####1、Git clone
+#### 1、Git clone
 将整个git库直接clone到本机上
 ```python
 git clone git@github.com:Lmerengues/Qmazon.git
@@ -148,7 +148,7 @@ git checkout b1
 git clone -b b1 git@github.com:Lmerengues/Qmazon.git
 ```
 
-####2、删除远程仓库
+#### 2、删除远程仓库
 
 有时我们想要切换远程仓库，那么我们便需要先删除远程仓库后再添加一个新的远程仓库。删除指令如下：
 ```python
@@ -157,7 +157,7 @@ git remote rm origin
 
 添加则使用remote add指令即可。
 
-####3、Git pull强制覆盖本地项目
+#### 3、Git pull强制覆盖本地项目
 有时我们在拉代码时希望不管本地的版本如何，我们只要现在远程仓库的，那边需要pull指令来进行操作。
 
 ```python
