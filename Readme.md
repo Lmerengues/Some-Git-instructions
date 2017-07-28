@@ -171,6 +171,19 @@ git reset --hard origin/master
 git pull 
 ```
 
+#### 4、撤销Git add
+有时add操作不小心添加多了，这时候便可以用以下命令撤销全部文件
+
+```python
+git reset HEAD .
+```
+
+或者使用以下命令撤销某个文件或文件夹
+
+```python
+git reset HEAD -filename
+```
+
 
 
 参考链接：
@@ -200,3 +213,5 @@ git pull
 [git push指令](http://www.yiibai.com/git/git_push.html)
 
 [强制覆盖](http://blog.csdn.net/xyzchenxiaolin/article/details/51955221)
+
+[add撤销](https://segmentfault.com/q/1010000006864939?_ea=1159571)
