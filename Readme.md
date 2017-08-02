@@ -183,6 +183,16 @@ git reset HEAD .
 ```python
 git reset HEAD -filename
 ```
+#### 5、回退到某一指定版本
+有时我们commit到本机上了，但没有提交到远程仓库。这时我们经过一番折腾后发现回不到之前的版本了，这时我们就需要以下指令来回到一个我们指定的某一版本
+
+```python
+git reflog   
+git reset --hard your_version
+```
+
+其中your_version为reflog指令显示出的你想要回到的版本的版本号
+
 
 
 
